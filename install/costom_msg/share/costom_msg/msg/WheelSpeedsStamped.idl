@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from costom_msg/msg/WheelSpeedsStamped.msg
+// generated code does not contain a copyright notice
+
+
+module costom_msg {
+  module msg {
+    struct WheelSpeedsStamped {
+      double wheelspeeds;
+    };
+  };
+};

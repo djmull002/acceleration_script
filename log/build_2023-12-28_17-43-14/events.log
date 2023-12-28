@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.000257] (costom_msg) JobQueued: {'identifier': 'costom_msg', 'dependencies': OrderedDict()}
+[0.000323] (acceleration) JobQueued: {'identifier': 'acceleration', 'dependencies': OrderedDict([('costom_msg', '/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg')])}
+[0.000378] (costom_msg) JobStarted: {'identifier': 'costom_msg'}
+[0.099618] (-) TimerEvent: {}
+[0.179150] (costom_msg) JobProgress: {'identifier': 'costom_msg', 'progress': 'cmake'}
+[0.180104] (costom_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg', '-DCMAKE_INSTALL_PREFIX=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg'], 'cwd': '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IE:en'), ('USER', 'darragh'), ('SSH_AGENT_PID', '1231'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/darragh/formula_trinity/eufs/install/eufs_rviz_plugins/lib:/home/darragh/formula_trinity/eufs/install/eufs_plugins/lib:/home/darragh/formula_trinity/eufs/install/eufs_models/lib:/home/darragh/formula_trinity/eufs/install/eufs_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/darragh'), ('OLDPWD', '/home/darragh/formula_trinity/fsai/acceleration_test/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/darragh/formula_trinity/fsai/acceleration_test/install:/home/darragh/formula_trinity/eufs/install:/home/darragh/formula_trinity/fsai/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'darragh'), ('JOURNAL_STREAM', '8:38300'), ('EUFS_MASTER', '/home/darragh/formula_trinity/eufs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'darragh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/darragh-HP-Pavilion-Laptop-15-eh0xxx:@/tmp/.ICE-unix/1316,unix/darragh-HP-Pavilion-Laptop-15-eh0xxx:/tmp/.ICE-unix/1316'), ('INVOCATION_ID', 'c01b23135e01472785a919b4670354a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ff44a125_878b_441f_9fd4_9090ce3334c3'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IE.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.107'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/darragh/formula_trinity/eufs/install/eufs_launcher:/home/darragh/formula_trinity/eufs/install/eufs_tracks:/home/darragh/formula_trinity/eufs/install/eufs_sensors:/home/darragh/formula_trinity/eufs/install/eufs_rviz_plugins:/home/darragh/formula_trinity/eufs/install/eufs_rqt:/home/darragh/formula_trinity/eufs/install/eufs_racecar:/home/darragh/formula_trinity/eufs/install/eufs_plugins:/home/darragh/formula_trinity/eufs/install/eufs_models:/home/darragh/formula_trinity/eufs/install/eufs_msgs:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_IP', '127.0.0.1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/darragh/formula_trinity/eufs/install/eufs_launcher/lib/python3.8/site-packages:/home/darragh/formula_trinity/eufs/install/eufs_tracks/lib/python3.8/site-packages:/home/darragh/formula_trinity/eufs/install/eufs_rqt/lib/python3.8/site-packages:/home/darragh/formula_trinity/eufs/install/eufs_racecar/lib/python3.8/site-packages:/home/darragh/formula_trinity/eufs/install/eufs_msgs/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/darragh/formula_trinity/eufs/install/eufs_sensors:/home/darragh/formula_trinity/eufs/install/eufs_rviz_plugins:/home/darragh/formula_trinity/eufs/install/eufs_plugins:/home/darragh/formula_trinity/eufs/install/eufs_models:/home/darragh/formula_trinity/eufs/install/eufs_msgs')]), 'shell': False}
+[0.196086] (costom_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.199971] (-) TimerEvent: {}
+[0.223690] (costom_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.296086] (costom_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.300068] (-) TimerEvent: {}
+[0.306619] (costom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.325370] (costom_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.400225] (-) TimerEvent: {}
+[0.500721] (-) TimerEvent: {}
+[0.503142] (costom_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.535807] (costom_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[0.600841] (-) TimerEvent: {}
+[0.642789] (costom_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701010] (-) TimerEvent: {}
+[0.708595] (costom_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.801161] (-) TimerEvent: {}
+[0.808383] (costom_msg) StderrLine: {'line': b"Error parsing '/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg/package.xml':\n"}
+[0.899493] (costom_msg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.899774] (costom_msg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[0.899942] (costom_msg) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[0.900090] (costom_msg) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/minidom.py", line 1969, in parseString\n'}
+[0.900226] (costom_msg) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[0.900357] (costom_msg) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[0.900491] (costom_msg) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[0.900622] (costom_msg) StderrLine: {'line': b'  File "/usr/lib/python3.8/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[0.900755] (costom_msg) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[0.900887] (costom_msg) StderrLine: {'line': b'xml.parsers.expat.ExpatError: mismatched tag: line 11, column 47\n'}
+[0.901020] (costom_msg) StderrLine: {'line': b'\n'}
+[0.901148] (-) TimerEvent: {}
+[0.901317] (costom_msg) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[0.901474] (costom_msg) StderrLine: {'line': b'\n'}
+[0.901609] (costom_msg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.901744] (costom_msg) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 151, in <module>\n'}
+[0.901878] (costom_msg) StderrLine: {'line': b'    main()\n'}
+[0.902010] (costom_msg) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 54, in main\n'}
+[0.902143] (costom_msg) StderrLine: {'line': b'    raise e\n'}
+[0.902275] (costom_msg) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 50, in main\n'}
+[0.902408] (costom_msg) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.902541] (costom_msg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[0.902673] (costom_msg) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[0.902806] (costom_msg) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg/package.xml':\n"}
+[0.902939] (costom_msg) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[0.903070] (costom_msg) StderrLine: {'line': b'mismatched tag: line 11, column 47\n'}
+[0.924441] (costom_msg) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[0.924681] (costom_msg) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.924829] (costom_msg) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.924967] (costom_msg) StderrLine: {'line': b'  /home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg/package.xml\n'}
+[0.925103] (costom_msg) StderrLine: {'line': b'  /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg/ament_cmake_core/package.cmake)\n'}
+[0.925238] (costom_msg) StderrLine: {'line': b'  returned error code 1\n'}
+[0.925369] (costom_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.925500] (costom_msg) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.925631] (costom_msg) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)\n'}
+[0.925763] (costom_msg) StderrLine: {'line': b'  CMakeLists.txt:16 (rosidl_generate_interfaces)\n'}
+[0.925901] (costom_msg) StderrLine: {'line': b'\n'}
+[0.926033] (costom_msg) StderrLine: {'line': b'\n'}
+[0.926430] (costom_msg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.926662] (costom_msg) StdoutLine: {'line': b'See also "/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg/CMakeFiles/CMakeOutput.log".\n'}
+[0.935249] (costom_msg) CommandEnded: {'returncode': 1}
+[0.936614] (costom_msg) JobEnded: {'identifier': 'costom_msg', 'rc': 1}
+[0.947807] (acceleration) JobSkipped: {'identifier': 'acceleration'}
+[0.948078] (-) EventReactorShutdown: {}

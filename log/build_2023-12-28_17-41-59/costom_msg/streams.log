@@ -1,0 +1,40 @@
+[0.182s] Invoking command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg': /usr/bin/cmake /home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg -DCMAKE_INSTALL_PREFIX=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg
+[0.296s] -- The C compiler identification is GNU 9.4.0
+[0.367s] -- The CXX compiler identification is GNU 9.4.0
+[0.379s] -- Check for working C compiler: /usr/bin/cc
+[0.461s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.464s] -- Detecting C compiler ABI info
+[0.552s] -- Detecting C compiler ABI info - done
+[0.568s] -- Detecting C compile features
+[0.568s] -- Detecting C compile features - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++
+[0.658s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.660s] -- Detecting CXX compiler ABI info
+[0.751s] -- Detecting CXX compiler ABI info - done
+[0.761s] -- Detecting CXX compile features
+[0.761s] -- Detecting CXX compile features - done
+[0.773s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.814s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.814s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.940s] CMake Error at CMakeLists.txt:9 (find_package):
+[0.940s]   By not providing "Findrosidl_generate_interfaces.cmake" in
+[0.940s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[0.940s]   configuration file provided by "rosidl_generate_interfaces", but CMake did
+[0.940s]   not find one.
+[0.941s] 
+[0.941s]   Could not find a package configuration file provided by
+[0.941s]   "rosidl_generate_interfaces" with any of the following names:
+[0.941s] 
+[0.941s]     rosidl_generate_interfacesConfig.cmake
+[0.941s]     rosidl_generate_interfaces-config.cmake
+[0.941s] 
+[0.942s]   Add the installation prefix of "rosidl_generate_interfaces" to
+[0.942s]   CMAKE_PREFIX_PATH or set "rosidl_generate_interfaces_DIR" to a directory
+[0.942s]   containing one of the above files.  If "rosidl_generate_interfaces"
+[0.942s]   provides a separate development package or SDK, be sure it has been
+[0.942s]   installed.
+[0.942s] 
+[0.942s] 
+[0.943s] -- Configuring incomplete, errors occurred!
+[0.943s] See also "/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg/CMakeFiles/CMakeOutput.log".
+[0.944s] Invoked command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg' returned '1': /usr/bin/cmake /home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg -DCMAKE_INSTALL_PREFIX=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg

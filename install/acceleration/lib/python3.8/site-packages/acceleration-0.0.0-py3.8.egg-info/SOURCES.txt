@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/acceleration/acceleration.egg-info/PKG-INFO
+../../build/acceleration/acceleration.egg-info/SOURCES.txt
+../../build/acceleration/acceleration.egg-info/dependency_links.txt
+../../build/acceleration/acceleration.egg-info/entry_points.txt
+../../build/acceleration/acceleration.egg-info/requires.txt
+../../build/acceleration/acceleration.egg-info/top_level.txt
+../../build/acceleration/acceleration.egg-info/zip-safe
+acceleration/__init__.py
+acceleration/accel.py
+resource/acceleration
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

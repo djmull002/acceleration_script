@@ -1,0 +1,3 @@
+[console_scripts]
+accel_test = acceleration.accel:main
+

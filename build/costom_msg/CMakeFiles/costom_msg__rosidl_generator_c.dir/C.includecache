@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg/rosidl_generator_c/costom_msg/msg/detail/wheel_speeds_stamped__functions.c
+costom_msg/msg/detail/wheel_speeds_stamped__functions.h
+/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg/rosidl_generator_c/costom_msg/msg/detail/costom_msg/msg/detail/wheel_speeds_stamped__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/costom_msg/msg/detail/wheel_speeds_stamped__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/costom_msg/msg/detail/rosidl_runtime_c/visibility_control.h
+costom_msg/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/costom_msg/msg/detail/costom_msg/msg/rosidl_generator_c__visibility_control.h
+costom_msg/msg/detail/wheel_speeds_stamped__struct.h
+rosidl_generator_c/costom_msg/msg/detail/costom_msg/msg/detail/wheel_speeds_stamped__struct.h
+
+rosidl_generator_c/costom_msg/msg/detail/wheel_speeds_stamped__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/costom_msg/msg/rosidl_generator_c__visibility_control.h
+

@@ -1,0 +1,8 @@
+[0.185s] Invoking command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg': /usr/bin/cmake /home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg -DCMAKE_INSTALL_PREFIX=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg
+[0.231s] CMake Error at CMakeLists.txt:8:
+[0.231s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.231s]   "find-package".
+[0.231s] 
+[0.231s] 
+[0.232s] -- Configuring incomplete, errors occurred!
+[0.233s] Invoked command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg' returned '1': /usr/bin/cmake /home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg -DCMAKE_INSTALL_PREFIX=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg

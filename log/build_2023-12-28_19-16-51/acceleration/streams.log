@@ -1,0 +1,21 @@
+[0.870s] Invoking command in '/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration': LD_LIBRARY_PATH=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/prefix_override:/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages:/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/acceleration build --build-base /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/build install --record /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/install.log --single-version-externally-managed
+[1.038s] running egg_info
+[1.038s] writing ../../build/acceleration/acceleration.egg-info/PKG-INFO
+[1.038s] writing dependency_links to ../../build/acceleration/acceleration.egg-info/dependency_links.txt
+[1.038s] writing entry points to ../../build/acceleration/acceleration.egg-info/entry_points.txt
+[1.039s] writing requirements to ../../build/acceleration/acceleration.egg-info/requires.txt
+[1.039s] writing top-level names to ../../build/acceleration/acceleration.egg-info/top_level.txt
+[1.065s] reading manifest file '../../build/acceleration/acceleration.egg-info/SOURCES.txt'
+[1.066s] writing manifest file '../../build/acceleration/acceleration.egg-info/SOURCES.txt'
+[1.066s] running build
+[1.067s] running build_py
+[1.067s] running install
+[1.067s] running install_lib
+[1.068s] running install_data
+[1.068s] running install_egg_info
+[1.070s] removing '/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration-0.0.0-py3.8.egg-info' (and everything under it)
+[1.070s] Copying ../../build/acceleration/acceleration.egg-info to /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration-0.0.0-py3.8.egg-info
+[1.070s] running install_scripts
+[1.084s] Installing accel_test script to /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/acceleration
+[1.084s] writing list of installed files to '/home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/install.log'
+[1.106s] Invoked command in '/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration' returned '0': LD_LIBRARY_PATH=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib PYTHONPATH=/home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/prefix_override:/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages:/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages:/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/acceleration build --build-base /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/build install --record /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/install.log --single-version-externally-managed

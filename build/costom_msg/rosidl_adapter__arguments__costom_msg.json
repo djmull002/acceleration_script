@@ -1,0 +1,6 @@
+{
+  "package_name": "costom_msg",
+  "non_idl_tuples": [
+    "/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg:msg/WheelSpeedsStamped.msg"
+  ]
+}
