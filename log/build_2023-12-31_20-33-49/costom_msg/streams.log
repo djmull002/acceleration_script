@@ -1,0 +1,190 @@
+[0.162s] Invoking command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/darragh/formula_trinity/fsai/ft_auto-tuner/install/automatic_tuner:/opt/ros/galactic /usr/bin/cmake --build /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg -- -j6 -l6
+[0.225s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.258s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.258s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.350s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.358s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.364s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.558s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.609s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.730s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[0.850s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.860s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.884s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.885s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[0.909s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.909s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.909s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.923s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.964s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.969s] -- Added test 'lint_cmake' to check CMake code style
+[0.972s] -- Added test 'xmllint' to check XML markup files
+[0.982s] -- Configuring done
+[1.015s] -- Generating done
+[1.018s] -- Build files have been written to: /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg
+[1.048s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.065s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.268s] [35m[1mScanning dependencies of target costom_msg__rosidl_generator_c[0m
+[1.276s] [  6%] Built target costom_msg__cpp
+[1.280s] [  9%] [32mBuilding C object CMakeFiles/costom_msg__rosidl_generator_c.dir/rosidl_generator_c/costom_msg/msg/detail/wheel_speeds_stamped__functions.c.o[0m
+[1.287s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.291s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.298s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.324s] [ 22%] [32m[1mLinking C shared library libcostom_msg__rosidl_generator_c.so[0m
+[1.381s] [ 22%] Built target costom_msg__rosidl_generator_c
+[1.402s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.404s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.472s] [35m[1mScanning dependencies of target costom_msg__rosidl_typesupport_cpp[0m
+[1.486s] [ 32%] [32mBuilding CXX object CMakeFiles/costom_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/costom_msg/msg/wheel_speeds_stamped__type_support.cpp.o[0m
+[1.504s] [35m[1mScanning dependencies of target costom_msg__rosidl_typesupport_fastrtps_cpp[0m
+[1.523s] [35m[1mScanning dependencies of target costom_msg__rosidl_typesupport_introspection_cpp[0m
+[1.581s] [ 35%] [32mBuilding CXX object CMakeFiles/costom_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/costom_msg/msg/detail/dds_fastrtps/wheel_speeds_stamped__type_support.cpp.o[0m
+[1.584s] [ 38%] [32mBuilding CXX object CMakeFiles/costom_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/costom_msg/msg/detail/wheel_speeds_stamped__type_support.cpp.o[0m
+[1.625s] [35m[1mScanning dependencies of target costom_msg__rosidl_typesupport_c[0m
+[1.646s] [ 41%] [32mBuilding CXX object CMakeFiles/costom_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/costom_msg/msg/wheel_speeds_stamped__type_support.cpp.o[0m
+[1.659s] [35m[1mScanning dependencies of target costom_msg__rosidl_typesupport_introspection_c[0m
+[1.684s] [ 45%] [32mBuilding C object CMakeFiles/costom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/costom_msg/msg/detail/wheel_speeds_stamped__type_support.c.o[0m
+[1.698s] [ 48%] [32m[1mLinking CXX shared library libcostom_msg__rosidl_typesupport_c.so[0m
+[1.762s] [ 51%] [32m[1mLinking C shared library libcostom_msg__rosidl_typesupport_introspection_c.so[0m
+[1.772s] [ 51%] Built target costom_msg__rosidl_typesupport_c
+[1.791s] [ 51%] Built target costom_msg__rosidl_typesupport_introspection_c
+[1.875s] [ 54%] [32m[1mLinking CXX shared library libcostom_msg__rosidl_typesupport_cpp.so[0m
+[1.910s] [ 58%] [32m[1mLinking CXX shared library libcostom_msg__rosidl_typesupport_introspection_cpp.so[0m
+[1.931s] [ 58%] Built target costom_msg__rosidl_typesupport_cpp
+[1.965s] [ 58%] Built target costom_msg__rosidl_typesupport_introspection_cpp
+[2.057s] [ 61%] [32m[1mLinking CXX shared library libcostom_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.165s] [ 61%] Built target costom_msg__rosidl_typesupport_fastrtps_cpp
+[2.177s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.371s] [35m[1mScanning dependencies of target costom_msg__rosidl_typesupport_fastrtps_c[0m
+[2.386s] [ 67%] [32mBuilding CXX object CMakeFiles/costom_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/costom_msg/msg/detail/wheel_speeds_stamped__type_support_c.cpp.o[0m
+[2.684s] [ 70%] [32m[1mLinking CXX shared library libcostom_msg__rosidl_typesupport_fastrtps_c.so[0m
+[2.799s] [ 70%] Built target costom_msg__rosidl_typesupport_fastrtps_c
+[2.821s] [ 70%] Built target costom_msg
+[2.851s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.185s] [ 74%] Built target costom_msg__py
+[3.200s] [35m[1mScanning dependencies of target costom_msg__python[0m
+[3.218s] [ 77%] [32mBuilding C object CMakeFiles/costom_msg__python.dir/rosidl_generator_py/costom_msg/msg/_wheel_speeds_stamped_s.c.o[0m
+[3.306s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/costom_msg/libcostom_msg__python.so[0m
+[3.349s] [ 80%] Built target costom_msg__python
+[3.360s] [35m[1mScanning dependencies of target costom_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.361s] [35m[1mScanning dependencies of target costom_msg__rosidl_typesupport_c__pyext[0m
+[3.365s] [35m[1mScanning dependencies of target costom_msg__rosidl_typesupport_introspection_c__pyext[0m
+[3.390s] [ 83%] [32mBuilding C object CMakeFiles/costom_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/costom_msg/_costom_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.390s] [ 87%] [32mBuilding C object CMakeFiles/costom_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/costom_msg/_costom_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.390s] [ 90%] [32mBuilding C object CMakeFiles/costom_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/costom_msg/_costom_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[3.477s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/costom_msg/costom_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.481s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/costom_msg/costom_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.495s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/costom_msg/costom_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.530s] [100%] Built target costom_msg__rosidl_typesupport_c__pyext
+[3.535s] [100%] Built target costom_msg__rosidl_typesupport_introspection_c__pyext
+[3.568s] [100%] Built target costom_msg__rosidl_typesupport_fastrtps_c__pyext
+[3.585s] Invoked command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/darragh/formula_trinity/fsai/ft_auto-tuner/install/automatic_tuner:/opt/ros/galactic /usr/bin/cmake --build /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg -- -j6 -l6
+[3.660s] Invoking command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/darragh/formula_trinity/fsai/ft_auto-tuner/install/automatic_tuner:/opt/ros/galactic /usr/bin/cmake --install /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg
+[3.670s] -- Install configuration: ""
+[3.671s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/ament_index/resource_index/rosidl_interfaces/costom_msg
+[3.671s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg
+[3.671s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg
+[3.671s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/wheel_speeds_stamped.h
+[3.671s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail
+[3.671s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__functions.c
+[3.672s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__type_support.h
+[3.672s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__struct.h
+[3.672s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__functions.h
+[3.672s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/rosidl_generator_c__visibility_control.h
+[3.672s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/environment/library_path.sh
+[3.672s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/environment/library_path.dsv
+[3.673s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_generator_c.so
+[3.673s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_generator_c.so" to ""
+[3.673s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg
+[3.673s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg
+[3.673s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail
+[3.673s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__rosidl_typesupport_fastrtps_c.h
+[3.674s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.674s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_fastrtps_c.so
+[3.674s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[3.674s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg
+[3.674s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg
+[3.675s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail
+[3.675s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/dds_fastrtps
+[3.675s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[3.676s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.676s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_fastrtps_cpp.so
+[3.676s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.676s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg
+[3.676s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg
+[3.676s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail
+[3.676s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__rosidl_typesupport_introspection_c.h
+[3.676s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__type_support.c
+[3.677s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.677s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_introspection_c.so
+[3.677s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_introspection_c.so" to ""
+[3.677s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_c.so
+[3.677s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_c.so" to ""
+[3.677s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg
+[3.678s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg
+[3.678s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/wheel_speeds_stamped.hpp
+[3.678s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail
+[3.678s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__traits.hpp
+[3.678s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__builder.hpp
+[3.678s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__struct.hpp
+[3.678s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg
+[3.679s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg
+[3.679s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail
+[3.679s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__rosidl_typesupport_introspection_cpp.hpp
+[3.679s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/include/costom_msg/msg/detail/wheel_speeds_stamped__type_support.cpp
+[3.679s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_introspection_cpp.so
+[3.679s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[3.679s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_cpp.so
+[3.679s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__rosidl_typesupport_cpp.so" to ""
+[3.679s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/environment/pythonpath.sh
+[3.679s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/environment/pythonpath.dsv
+[3.679s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/__init__.py
+[3.700s] Compiling '/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/__init__.py'...
+[3.704s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/msg
+[3.704s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/msg/_wheel_speeds_stamped.py
+[3.705s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/msg/_wheel_speeds_stamped_s.c
+[3.706s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/msg/__init__.py
+[3.706s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/costom_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.706s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/costom_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.706s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/costom_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.706s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/costom_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.706s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/costom_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.706s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages/costom_msg/costom_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.707s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__python.so
+[3.707s] -- Set runtime path of "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/libcostom_msg__python.so" to ""
+[3.707s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/msg/WheelSpeedsStamped.idl
+[3.707s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/msg/WheelSpeedsStamped.msg
+[3.707s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/ament_index/resource_index/package_run_dependencies/costom_msg
+[3.708s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/ament_index/resource_index/parent_prefix_path/costom_msg
+[3.708s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/environment/ament_prefix_path.sh
+[3.708s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/environment/ament_prefix_path.dsv
+[3.708s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/environment/path.sh
+[3.708s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/environment/path.dsv
+[3.708s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/local_setup.bash
+[3.709s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/local_setup.sh
+[3.709s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/local_setup.zsh
+[3.709s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/local_setup.dsv
+[3.709s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/package.dsv
+[3.710s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/ament_index/resource_index/packages/costom_msg
+[3.710s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_generator_cExport.cmake
+[3.710s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_generator_cExport-noconfig.cmake
+[3.710s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_typesupport_introspection_cExport.cmake
+[3.710s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.710s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_typesupport_cExport.cmake
+[3.710s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_typesupport_cExport-noconfig.cmake
+[3.710s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_generator_cppExport.cmake
+[3.711s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_typesupport_introspection_cppExport.cmake
+[3.711s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.711s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_typesupport_cppExport.cmake
+[3.711s] -- Installing: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[3.711s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/rosidl_cmake-extras.cmake
+[3.711s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.711s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[3.711s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/ament_cmake_export_targets-extras.cmake
+[3.711s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.712s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.712s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.712s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msgConfig.cmake
+[3.712s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/cmake/costom_msgConfig-version.cmake
+[3.712s] -- Up-to-date: /home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/share/costom_msg/package.xml
+[3.713s] Invoked command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/darragh/formula_trinity/fsai/ft_auto-tuner/install/automatic_tuner:/opt/ros/galactic /usr/bin/cmake --install /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg

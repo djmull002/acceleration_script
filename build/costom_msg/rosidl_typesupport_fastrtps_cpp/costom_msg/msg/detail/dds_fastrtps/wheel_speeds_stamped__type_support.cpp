@@ -32,8 +32,8 @@ cdr_serialize(
   const costom_msg::msg::WheelSpeedsStamped & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: wheelspeeds
-  cdr << ros_message.wheelspeeds;
+  // Member: speeds
+  cdr << ros_message.speeds;
   return true;
 }
 
@@ -43,8 +43,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   costom_msg::msg::WheelSpeedsStamped & ros_message)
 {
-  // Member: wheelspeeds
-  cdr >> ros_message.wheelspeeds;
+  // Member: speeds
+  cdr >> ros_message.speeds;
 
   return true;
 }
@@ -62,9 +62,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: wheelspeeds
+  // Member: speeds
   {
-    size_t item_size = sizeof(ros_message.wheelspeeds);
+    size_t item_size = sizeof(ros_message.speeds);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -87,7 +87,7 @@ max_serialized_size_WheelSpeedsStamped(
   (void)full_bounded;
 
 
-  // Member: wheelspeeds
+  // Member: speeds
   {
     size_t array_size = 1;
 

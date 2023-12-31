@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/acceleration/acceleration.egg-info/PKG-INFO
+writing dependency_links to ../../build/acceleration/acceleration.egg-info/dependency_links.txt
+writing entry points to ../../build/acceleration/acceleration.egg-info/entry_points.txt
+writing requirements to ../../build/acceleration/acceleration.egg-info/requires.txt
+writing top-level names to ../../build/acceleration/acceleration.egg-info/top_level.txt
+reading manifest file '../../build/acceleration/acceleration.egg-info/SOURCES.txt'
+writing manifest file '../../build/acceleration/acceleration.egg-info/SOURCES.txt'
+running build
+running build_py
+copying acceleration/accel.py -> /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/build/lib/acceleration
+running install
+running install_lib
+copying /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/build/lib/acceleration/accel.py -> /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration
+byte-compiling /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration/accel.py to accel.cpython-38.pyc
+running install_data
+copying package.xml -> /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/share/acceleration
+running install_egg_info
+removing '/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/acceleration/acceleration.egg-info to /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration-0.0.0-py3.8.egg-info
+running install_scripts
+Installing accel_test script to /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/acceleration
+writing list of installed files to '/home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/install.log'

@@ -50,13 +50,13 @@ bool costom_msg__msg__wheel_speeds_stamped__convert_from_py(PyObject * _pymsg, v
     assert(strncmp("costom_msg.msg._wheel_speeds_stamped.WheelSpeedsStamped", full_classname_dest, 55) == 0);
   }
   costom_msg__msg__WheelSpeedsStamped * ros_message = _ros_message;
-  {  // wheelspeeds
-    PyObject * field = PyObject_GetAttrString(_pymsg, "wheelspeeds");
+  {  // speeds
+    PyObject * field = PyObject_GetAttrString(_pymsg, "speeds");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->wheelspeeds = PyFloat_AS_DOUBLE(field);
+    ros_message->speeds = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -81,11 +81,11 @@ PyObject * costom_msg__msg__wheel_speeds_stamped__convert_to_py(void * raw_ros_m
     }
   }
   costom_msg__msg__WheelSpeedsStamped * ros_message = (costom_msg__msg__WheelSpeedsStamped *)raw_ros_message;
-  {  // wheelspeeds
+  {  // speeds
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->wheelspeeds);
+    field = PyFloat_FromDouble(ros_message->speeds);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "wheelspeeds", field);
+      int rc = PyObject_SetAttrString(_pymessage, "speeds", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

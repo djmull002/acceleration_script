@@ -15,7 +15,7 @@ costom_msg__msg__WheelSpeedsStamped__init(costom_msg__msg__WheelSpeedsStamped * 
   if (!msg) {
     return false;
   }
-  // wheelspeeds
+  // speeds
   return true;
 }
 
@@ -25,7 +25,7 @@ costom_msg__msg__WheelSpeedsStamped__fini(costom_msg__msg__WheelSpeedsStamped * 
   if (!msg) {
     return;
   }
-  // wheelspeeds
+  // speeds
 }
 
 bool
@@ -34,8 +34,8 @@ costom_msg__msg__WheelSpeedsStamped__are_equal(const costom_msg__msg__WheelSpeed
   if (!lhs || !rhs) {
     return false;
   }
-  // wheelspeeds
-  if (lhs->wheelspeeds != rhs->wheelspeeds) {
+  // speeds
+  if (lhs->speeds != rhs->speeds) {
     return false;
   }
   return true;
@@ -49,8 +49,8 @@ costom_msg__msg__WheelSpeedsStamped__copy(
   if (!input || !output) {
     return false;
   }
-  // wheelspeeds
-  output->wheelspeeds = input->wheelspeeds;
+  // speeds
+  output->speeds = input->speeds;
   return true;
 }
 

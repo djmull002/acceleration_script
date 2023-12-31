@@ -6,7 +6,7 @@
 module costom_msg {
   module msg {
     struct WheelSpeedsStamped {
-      double wheelspeeds;
+      double speeds;
     };
   };
 };

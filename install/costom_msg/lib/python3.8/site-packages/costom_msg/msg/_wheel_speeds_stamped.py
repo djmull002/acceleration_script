@@ -53,11 +53,11 @@ class WheelSpeedsStamped(metaclass=Metaclass_WheelSpeedsStamped):
     """Message class 'WheelSpeedsStamped'."""
 
     __slots__ = [
-        '_wheelspeeds',
+        '_speeds',
     ]
 
     _fields_and_field_types = {
-        'wheelspeeds': 'double',
+        'speeds': 'double',
     }
 
     SLOT_TYPES = (
@@ -68,7 +68,7 @@ class WheelSpeedsStamped(metaclass=Metaclass_WheelSpeedsStamped):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.wheelspeeds = kwargs.get('wheelspeeds', float())
+        self.speeds = kwargs.get('speeds', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -99,7 +99,7 @@ class WheelSpeedsStamped(metaclass=Metaclass_WheelSpeedsStamped):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
-        if self.wheelspeeds != other.wheelspeeds:
+        if self.speeds != other.speeds:
             return False
         return True
 
@@ -109,14 +109,14 @@ class WheelSpeedsStamped(metaclass=Metaclass_WheelSpeedsStamped):
         return copy(cls._fields_and_field_types)
 
     @property
-    def wheelspeeds(self):
-        """Message field 'wheelspeeds'."""
-        return self._wheelspeeds
+    def speeds(self):
+        """Message field 'speeds'."""
+        return self._speeds
 
-    @wheelspeeds.setter
-    def wheelspeeds(self, value):
+    @speeds.setter
+    def speeds(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'wheelspeeds' field must be of type 'float'"
-        self._wheelspeeds = value
+                "The 'speeds' field must be of type 'float'"
+        self._speeds = value

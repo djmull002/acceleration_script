@@ -20,15 +20,15 @@ namespace msg
 namespace builder
 {
 
-class Init_WheelSpeedsStamped_wheelspeeds
+class Init_WheelSpeedsStamped_speeds
 {
 public:
-  Init_WheelSpeedsStamped_wheelspeeds()
+  Init_WheelSpeedsStamped_speeds()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::costom_msg::msg::WheelSpeedsStamped wheelspeeds(::costom_msg::msg::WheelSpeedsStamped::_wheelspeeds_type arg)
+  ::costom_msg::msg::WheelSpeedsStamped speeds(::costom_msg::msg::WheelSpeedsStamped::_speeds_type arg)
   {
-    msg_.wheelspeeds = std::move(arg);
+    msg_.speeds = std::move(arg);
     return std::move(msg_);
   }
 
@@ -47,7 +47,7 @@ template<>
 inline
 auto build<::costom_msg::msg::WheelSpeedsStamped>()
 {
-  return costom_msg::msg::builder::Init_WheelSpeedsStamped_wheelspeeds();
+  return costom_msg::msg::builder::Init_WheelSpeedsStamped_speeds();
 }
 
 }  // namespace costom_msg

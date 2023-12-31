@@ -1,9 +1,10 @@
+#!/usr/bin/env python3
 import rclpy
 import rclpy.time
 import numpy as np
 from rclpy.node import Node
 from ackermann_msgs.msg import AckermannDriveStamped
-from costom_msg.msg import WheelSpeedsStamped
+from eufs_msgs.msg import WheelSpeedsStamped
 
 class accel_test(Node):
     def __init__(self):
@@ -25,7 +26,6 @@ class accel_test(Node):
         self.current_vel = 0
         self.setpoint = 1
         self.ku = 1
-        # Run the node processes
 
         self.accel_pub = self.create_publisher(
             publish_msg, publish_topic, 10
@@ -38,16 +38,23 @@ class accel_test(Node):
 
 
     def call_back(self, message):
-         self.current_vel = self.linear_wheel_vel(message)
+        print("Time: ",self.duration - self.get_time())
+        if (self.get_time() < self.duration): # run processes for 30 seconds
+            self.current_vel = self.linear_wheel_vel(message)
             
-         acceleration = self.P_controller(
-             self.ku, self.current_velocity, self.setpoint)
+            acceleration = self.P_controller(
+            self.ku, self.current_velocity, self.setpoint)
             
-         return_msg = AckermannDriveStamped()
-         return_msg.drive.acceleration = acceleration
-         return_msg.drive.steering_angle = 0.0
+            return_msg = AckermannDriveStamped()
+            return_msg.drive.acceleration = acceleration
+            return_msg.drive.steering_angle = 0.0
 
-         self.accel_pub.publish(return_msg)
+            self.accel_pub.publish(return_msg)
+        else: 
+            self.get_logger().info("Test over, shutting down node")
+            self.destroy_node()
+
+    
 
 
     def linear_wheel_vel(self, message):
@@ -58,6 +65,9 @@ class accel_test(Node):
     def P_controller(self, gain, velocity, target):
           error = target - velocity
           return gain * error
+    
+    def get_time(self):
+         return (self.get_clock().now().nanoseconds - self.start_timer )/ 1000000000
 
 
 def main(args = None):
@@ -65,7 +75,7 @@ def main(args = None):
     accel = accel_test()
     rclpy.spin(accel)
     print("Ending Test")
-    rclpy.shutdown()
+   # rclpy.shutdown()
 
 if __name__ == "__main__":
     main()

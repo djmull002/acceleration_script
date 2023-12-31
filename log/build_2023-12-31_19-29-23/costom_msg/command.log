@@ -1,0 +1,4 @@
+Invoking command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg': /usr/bin/cmake --build /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg -- -j6 -l6
+Invoked command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg' returned '0': /usr/bin/cmake --build /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg -- -j6 -l6
+Invoking command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg': /usr/bin/cmake --install /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg
+Invoked command in '/home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg' returned '0': /usr/bin/cmake --install /home/darragh/formula_trinity/fsai/acceleration_test/build/costom_msg

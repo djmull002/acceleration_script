@@ -1,0 +1,66 @@
+[1.758s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/darragh/formula_trinity/fsai/acceleration_test']
+[1.758s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], base_paths=['/home/darragh/formula_trinity/fsai/acceleration_test'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7fd98b33c160>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7fd98b33c160>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd98b2e31c0>)
+[1.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.859s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.859s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/darragh/formula_trinity/fsai/acceleration_test'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extensions ['ignore', 'ignore_ament_install']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extension 'ignore'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extension 'ignore_ament_install'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extensions ['colcon_pkg']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extension 'colcon_pkg'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extensions ['colcon_meta']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extension 'colcon_meta'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extensions ['ros']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extension 'ros'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extensions ['cmake', 'python']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extension 'cmake'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extension 'python'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extensions ['python_setup_py']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test) by extension 'python_setup_py'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/build) by extensions ['ignore', 'ignore_ament_install']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/build) by extension 'ignore'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/build) ignored
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/install) by extensions ['ignore', 'ignore_ament_install']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/install) by extension 'ignore'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/install) ignored
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/log) by extensions ['ignore', 'ignore_ament_install']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/log) by extension 'ignore'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/log) ignored
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extensions ['ignore', 'ignore_ament_install']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extension 'ignore'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extension 'ignore_ament_install'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extensions ['colcon_pkg']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extension 'colcon_pkg'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extensions ['colcon_meta']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extension 'colcon_meta'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extensions ['ros']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extension 'ros'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extensions ['cmake', 'python']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extension 'cmake'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extension 'python'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extensions ['python_setup_py']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src) by extension 'python_setup_py'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration) by extensions ['ignore', 'ignore_ament_install']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration) by extension 'ignore'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration) by extension 'ignore_ament_install'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration) by extensions ['colcon_pkg']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration) by extension 'colcon_pkg'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration) by extensions ['colcon_meta']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration) by extension 'colcon_meta'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration) by extensions ['ros']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration) by extension 'ros'
+[1.879s] DEBUG:colcon.colcon_core.package_identification:Package '/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration' with type 'ros.ament_python' and name 'acceleration'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg) by extension 'ignore'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg) by extension 'ignore_ament_install'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg) by extensions ['colcon_pkg']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg) by extension 'colcon_pkg'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg) by extensions ['colcon_meta']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg) by extension 'colcon_meta'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg) by extensions ['ros']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg) by extension 'ros'
+[1.881s] DEBUG:colcon.colcon_core.package_identification:Package '/home/darragh/formula_trinity/fsai/acceleration_test/src/costom_msg' with type 'ros.ament_cmake' and name 'costom_msg'
+[1.881s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

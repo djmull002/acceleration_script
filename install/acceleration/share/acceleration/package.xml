@@ -11,7 +11,6 @@
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
   <test_depend>python3-pytest</test_depend>
-  <build_depend>costom_msg</build_depend>
 
   <exec_depend>rcply</exec_depend>
   <exec_depend>std_msgs</exec_depend>

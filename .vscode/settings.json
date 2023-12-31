@@ -1,3 +1,13 @@
 {
-    "ros.distro": "galactic"
+    "ros.distro": "galactic",
+    "python.autoComplete.extraPaths": [
+        "/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages",
+        "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages",
+        "/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
 }

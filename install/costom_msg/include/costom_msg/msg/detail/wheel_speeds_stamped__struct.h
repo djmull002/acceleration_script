@@ -20,7 +20,7 @@ extern "C"
 // Struct defined in msg/WheelSpeedsStamped in the package costom_msg.
 typedef struct costom_msg__msg__WheelSpeedsStamped
 {
-  double wheelspeeds;
+  double speeds;
 } costom_msg__msg__WheelSpeedsStamped;
 
 // Struct for a sequence of costom_msg__msg__WheelSpeedsStamped.

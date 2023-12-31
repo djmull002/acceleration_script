@@ -37,7 +37,7 @@ struct WheelSpeedsStamped_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->wheelspeeds = 0.0;
+      this->speeds = 0.0;
     }
   }
 
@@ -47,20 +47,20 @@ struct WheelSpeedsStamped_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->wheelspeeds = 0.0;
+      this->speeds = 0.0;
     }
   }
 
   // field types and members
-  using _wheelspeeds_type =
+  using _speeds_type =
     double;
-  _wheelspeeds_type wheelspeeds;
+  _speeds_type speeds;
 
   // setters for named parameter idiom
-  Type & set__wheelspeeds(
+  Type & set__speeds(
     const double & _arg)
   {
-    this->wheelspeeds = _arg;
+    this->speeds = _arg;
     return *this;
   }
 
@@ -106,7 +106,7 @@ struct WheelSpeedsStamped_
   // comparison operators
   bool operator==(const WheelSpeedsStamped_ & other) const
   {
-    if (this->wheelspeeds != other.wheelspeeds) {
+    if (this->speeds != other.speeds) {
       return false;
     }
     return true;

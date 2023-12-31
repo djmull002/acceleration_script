@@ -33,14 +33,14 @@ void WheelSpeedsStamped__rosidl_typesupport_introspection_c__WheelSpeedsStamped_
 
 static rosidl_typesupport_introspection_c__MessageMember WheelSpeedsStamped__rosidl_typesupport_introspection_c__WheelSpeedsStamped_message_member_array[1] = {
   {
-    "wheelspeeds",  // name
+    "speeds",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(costom_msg__msg__WheelSpeedsStamped, wheelspeeds),  // bytes offset in struct
+    offsetof(costom_msg__msg__WheelSpeedsStamped, speeds),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer

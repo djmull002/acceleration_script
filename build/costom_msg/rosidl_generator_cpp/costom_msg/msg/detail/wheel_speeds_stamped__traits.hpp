@@ -19,13 +19,13 @@ inline void to_yaml(
   const costom_msg::msg::WheelSpeedsStamped & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: wheelspeeds
+  // member: speeds
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "wheelspeeds: ";
-    value_to_yaml(msg.wheelspeeds, out);
+    out << "speeds: ";
+    value_to_yaml(msg.speeds, out);
     out << "\n";
   }
 }  // NOLINT(readability/fn_size)

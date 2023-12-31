@@ -1,2 +1,2 @@
 
-float64 wheelspeeds
+float64 speeds

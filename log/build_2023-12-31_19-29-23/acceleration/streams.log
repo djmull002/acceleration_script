@@ -1,0 +1,24 @@
+[0.707s] Invoking command in '/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration': AMENT_PREFIX_PATH=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg CMAKE_PREFIX_PATH=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg LD_LIBRARY_PATH=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib PYTHONPATH=/home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/prefix_override:/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages:/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/acceleration build --build-base /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/build install --record /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/install.log --single-version-externally-managed
+[0.853s] running egg_info
+[0.854s] writing ../../build/acceleration/acceleration.egg-info/PKG-INFO
+[0.854s] writing dependency_links to ../../build/acceleration/acceleration.egg-info/dependency_links.txt
+[0.855s] writing entry points to ../../build/acceleration/acceleration.egg-info/entry_points.txt
+[0.856s] writing requirements to ../../build/acceleration/acceleration.egg-info/requires.txt
+[0.856s] writing top-level names to ../../build/acceleration/acceleration.egg-info/top_level.txt
+[0.884s] reading manifest file '../../build/acceleration/acceleration.egg-info/SOURCES.txt'
+[0.886s] writing manifest file '../../build/acceleration/acceleration.egg-info/SOURCES.txt'
+[0.886s] running build
+[0.886s] running build_py
+[0.886s] copying acceleration/accel.py -> /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/build/lib/acceleration
+[0.886s] running install
+[0.887s] running install_lib
+[0.887s] copying /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/build/lib/acceleration/accel.py -> /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration
+[0.888s] byte-compiling /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration/accel.py to accel.cpython-38.pyc
+[0.888s] running install_data
+[0.889s] running install_egg_info
+[0.890s] removing '/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration-0.0.0-py3.8.egg-info' (and everything under it)
+[0.890s] Copying ../../build/acceleration/acceleration.egg-info to /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages/acceleration-0.0.0-py3.8.egg-info
+[0.891s] running install_scripts
+[0.905s] Installing accel_test script to /home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/acceleration
+[0.905s] writing list of installed files to '/home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/install.log'
+[0.930s] Invoked command in '/home/darragh/formula_trinity/fsai/acceleration_test/src/acceleration' returned '0': AMENT_PREFIX_PATH=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg CMAKE_PREFIX_PATH=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg LD_LIBRARY_PATH=/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib PYTHONPATH=/home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/prefix_override:/home/darragh/formula_trinity/fsai/acceleration_test/install/acceleration/lib/python3.8/site-packages:/home/darragh/formula_trinity/fsai/acceleration_test/install/costom_msg/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../build/acceleration build --build-base /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/build install --record /home/darragh/formula_trinity/fsai/acceleration_test/build/acceleration/install.log --single-version-externally-managed

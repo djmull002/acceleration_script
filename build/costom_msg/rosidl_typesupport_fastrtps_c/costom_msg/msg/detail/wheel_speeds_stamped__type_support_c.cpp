@@ -49,9 +49,9 @@ static bool _WheelSpeedsStamped__cdr_serialize(
     return false;
   }
   const _WheelSpeedsStamped__ros_msg_type * ros_message = static_cast<const _WheelSpeedsStamped__ros_msg_type *>(untyped_ros_message);
-  // Field name: wheelspeeds
+  // Field name: speeds
   {
-    cdr << ros_message->wheelspeeds;
+    cdr << ros_message->speeds;
   }
 
   return true;
@@ -66,9 +66,9 @@ static bool _WheelSpeedsStamped__cdr_deserialize(
     return false;
   }
   _WheelSpeedsStamped__ros_msg_type * ros_message = static_cast<_WheelSpeedsStamped__ros_msg_type *>(untyped_ros_message);
-  // Field name: wheelspeeds
+  // Field name: speeds
   {
-    cdr >> ros_message->wheelspeeds;
+    cdr >> ros_message->speeds;
   }
 
   return true;
@@ -88,9 +88,9 @@ size_t get_serialized_size_costom_msg__msg__WheelSpeedsStamped(
   (void)padding;
   (void)wchar_size;
 
-  // field.name wheelspeeds
+  // field.name speeds
   {
-    size_t item_size = sizeof(ros_message->wheelspeeds);
+    size_t item_size = sizeof(ros_message->speeds);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -118,7 +118,7 @@ size_t max_serialized_size_costom_msg__msg__WheelSpeedsStamped(
   (void)wchar_size;
   (void)full_bounded;
 
-  // member: wheelspeeds
+  // member: speeds
   {
     size_t array_size = 1;
 
